@@ -303,6 +303,3 @@ Presentation created using <br><a href="https://github.com/krig/opensuse-present
 This slide deck is licensed under the Creative Commons Attribution-ShareAlike 4.0 International license.
 It can be shared and adapted for any purpose (even commercially) as long as Attribution is given and any derivative work is distributed under the same license. Details can be found at <a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a>
 </small>
-
----
-
