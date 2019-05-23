@@ -292,6 +292,8 @@ Manual – by definition
 
 <p><img src="img/chameleon.svg" style="max-height:300px;"></p>
 
+https://v.gd/okurz_osc19
+
 <small>
 Presentation created using <br><a href="https://github.com/krig/opensuse-presentation-template">https://github.com/krig/opensuse-presentation-template</a>
 </small>
