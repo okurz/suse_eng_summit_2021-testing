@@ -9,7 +9,7 @@
 
 ## Overview
 
-<img src="img/pyramid.svg"/>
+<img src="img/pyramid.png"/>
 
 Note:
 This talk will try to present an overview of how "testing" is done for
@@ -139,7 +139,7 @@ register_new_matrix_user --config homeserver.yaml --user opensuse \
 
 ### build + test results
 
-<img src="img/obs_example.png"/>
+<img src="img/obs_example.png" width="60%"/>
 
 ---
 
