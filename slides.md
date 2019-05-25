@@ -43,7 +43,7 @@ Everyone does that, right?
 
 ---
 
-## Upstream source repo tests
+### Upstream source repo tests
 
 * *Who:* Upstream communities
 * *How:* Ecosystem dependant approaches
@@ -53,7 +53,7 @@ Everyone does that, right?
 
 ---
 
-## … can be sophisticated
+### … can be sophisticated
 
 <div class='left' style='float:left;width:68%'>
 <img src="img/travis_openqa.png"/>
@@ -95,7 +95,7 @@ https://build.opensuse.org/package/show/network:messaging:matrix/matrix-synapse
 
 ---
 
-## What do you need?
+### What do you need?
 
 Two files:
 
@@ -109,7 +109,7 @@ Two files:
 
 ---
 
-## … and <package>.spec
+### … and `<package>.spec`
 
 ```yaml
 %if "@BUILD_FLAVOR@" == ""
@@ -137,13 +137,13 @@ register_new_matrix_user --config homeserver.yaml --user opensuse \
 
 ---
 
-## build + test results
+### build + test results
 
 <img src="img/obs_example.png"/>
 
 ---
 
-### … and <package>.spec
+### … and `<package>.spec`
 
 … and some boiler plate
 ```yaml
@@ -168,7 +168,7 @@ not all people like that:
 
 ---
 
-## Package / project tests
+### Package / project tests
 
 * *Who:* Package / build project maintainer
 * *How:* build, *%check*, OBS bots, CI systems + containers
@@ -201,7 +201,7 @@ Test end-to-end
 
 ---
 
-## openQA: Recent new features
+### openQA: Recent new features
 
 * "openQA bootstrap" tool for easy installation
 * Run custom test code on production instances
@@ -234,7 +234,7 @@ Where openQA shines ;)
 
 ---
 
-## Finally something visual
+### Finally something visual
 
 <video data-autoplay src="img/openqa_kde.ogv"></video>
 
@@ -264,7 +264,7 @@ Manual – by definition
 
 ---
 
-## Exploratory and Beta testing
+### Exploratory and Beta testing
 
 * *Who:* Everyone
 * *How:* Simply by using – are you providing the feedback?
