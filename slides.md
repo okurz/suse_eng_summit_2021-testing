@@ -278,6 +278,21 @@ Manual – by definition
 * Everyone is involved
 * Select the right tool for the purpose
 
+--
+
+## Optional: Walkthrough from source to shipping
+
+* [upstream source project](http://github.com/os-autoinst/openQA)
+* [unit- and integration tests](https://travis-ci.org/os-autoinst/openQA)
+* [trigger package update in OBS](https://build.opensuse.org/package/show/devel:openQA/openQA)
+* [build and test for multiple products, devel project publish](http://download.opensuse.org/repositories/devel:/openQA/openSUSE_Tumbleweed/noarch/)
+* [trigger "openQA-in-openQA" tests](https://openqa.opensuse.org/group_overview/24)
+* [conduct openQA installation and fullstack test](https://openqa.opensuse.org/tests/latest?test=openqa_install%2Bpublish)
+* [create submit request to openSUSE Factory](https://build.opensuse.org/request/show/704781)
+* [running staging tests](https://build.opensuse.org/project/staging_projects/openSUSE:Factory/adi:89)
+* [Tumbleweed snapshot test](https://openqa.opensuse.org/tests/latest?test=openqa_bootstrap&machine=64bit)
+* [Tumbleweed release](https://openqa.opensuse.org/group_overview/1?limit_builds=1)
+
 ---
 
 ## Challenges
