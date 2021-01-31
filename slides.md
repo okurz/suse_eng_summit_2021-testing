@@ -56,7 +56,7 @@ Everyone does that, right?
 ### … can be sophisticated
 
 <div class='left' style='float:left;width:68%'>
-<img src="img/travis_openqa.png"/>
+<img src="img/circleci_openqa.png"/>
 </div>
 <div class='right' style='float:right;width:28%'>
 
@@ -203,10 +203,10 @@ Test end-to-end
 
 ### openQA: Recent new features
 
-* "openQA bootstrap" tool for easy installation
-* Run custom test code on production instances
-* YAML based declarative schedule support
-* Reworked interactive "developer mode"
+* Containers definitions with images now fully supported
+* Run test code from any git repository on production instances
+* Automatic job labelling based on expressions in tickets
+* Automatic investigation jobs on failures
 
 ---
 
@@ -283,7 +283,7 @@ Manual – by definition
 ## Optional: Walkthrough from source to shipping
 
 * [upstream source project](http://github.com/os-autoinst/openQA)
-* [unit- and integration tests](https://travis-ci.org/os-autoinst/openQA)
+* [unit- and integration tests](https://app.circleci.com/pipelines/github/os-autoinst/openQA)
 * [trigger package update in OBS](https://build.opensuse.org/package/show/devel:openQA/openQA)
 * [build and test for multiple products, devel project publish](http://download.opensuse.org/repositories/devel:/openQA/openSUSE_Tumbleweed/noarch/)
 * [trigger "openQA-in-openQA" tests](https://openqa.opensuse.org/group_overview/24)
